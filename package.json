@@ -12,5 +12,13 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "node-sass": "^4.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Outerstock/frontendworkflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Outerstock/frontendworkflow/issues"
+  },
+  "homepage": "https://github.com/Outerstock/frontendworkflow#readme"
 }
