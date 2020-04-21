@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -o css scss"
+    "scss": "node-sass -o css scss",
+    "serve": "browser-sync start --server --files 'css/*.css', *.html ",
+    "watch:css": "onchange 'scss' -- npm run scss",
+    "start": "run-p serve watch:css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^6.1.1"
   },
   "repository": {
     "type": "git",
