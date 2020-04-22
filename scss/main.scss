@@ -1,10 +1,15 @@
 $red: red;
 $backgroundColor : white;
 
+
 body {
     background-color: $backgroundColor;
     color: $red;
 }
 #AddressForm {
     width: 300px;
+}
+
+meter {
+    width: 500px;
 }

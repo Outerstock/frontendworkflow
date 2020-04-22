@@ -4,3 +4,6 @@ body {
 
 #AddressForm {
   width: 300px; }
+
+meter {
+  width: 500px; }
