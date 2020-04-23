@@ -1,10 +1,9 @@
-$red: red;
+$red: rgb(139, 27, 27);
 $backgroundColor : white;
 
 
 body {
     background-color: $backgroundColor;
-    color: $red;
 }
 #AddressForm {
     width: 300px;
@@ -17,5 +16,13 @@ meter {
 table {
     text-align: center;
     width: 50%;
-    background: black;
+    background: $red;
 }
+
+legend {
+    background: pink;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0.1px;
+}
+
