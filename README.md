@@ -1,6 +1,6 @@
 # frontendworkflow
 ## การ Run 
-ลง node modules ให้เรียบร้อย
+ลง node modules ที่root dirให้เรียบร้อย
 ```
 npm install
 ```
