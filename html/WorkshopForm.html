@@ -11,19 +11,27 @@
         <fieldset>
             <legend>ข้อมูลสมาชิก</legend>
             <label>ชื่อ</label>
-            <input type="text" name="txtName">
+            <input type="text" name="txtName" required>
             <label>รหัสสมาชิก</label>
             <input type="text" name="txtId">
         </fieldset>
         <fieldset>
             <legend>ข้อมูลทั่วไป</legend>
-            <label>เงินเดือน :</label><input type="number" min="0" max="10000000" step="10000" value="300000"><label>บาท</label><br>
+            <label>เงินเดือน :</label><input type="number" name="income" min="0" max="10000000" step="10000" value="300000"><label>บาท</label><br>
+            <label>วันเกิด</label><input type="date" name="txtBirth"><br>
             <label>ภาษาโปรแกรมที่สนใจ</label> <br>
             <input type="checkbox" name="txtPgl" value="1"> JAVA <br>
             <input type="checkbox" name="txtPgl" value="2"> CSS <br>
             <input type="checkbox" name="txtPgl" value="3"> JAVASCRIPT <br>
             <input type="checkbox" name="txtPgl" value="4"> JAVA <br>
         </fieldset>
+        <fieldset>
+            <legend>อิ้นๆ </legend>
+            <label>url</label><input type="url" style="width: 300px;"><br>
+            <label>สีที่ชอบ</label><input type="color" name="txtColor"><br>
+            <input type="file">
+        </fieldset>
+        <input type="submit" value="ส่ง">
     </form>
 </body>
 </html>
